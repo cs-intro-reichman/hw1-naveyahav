@@ -2,7 +2,6 @@
 // and prints them in increasing order.
 public class Ascend {
 	public static void main(String[] args) {
-		System.out.println("please insert a number");
 		int lim = Integer.parseInt(args[0]);
 		int randomNum1 = (int) (Math.random() * lim);
 		int randomNum2 = (int) (Math.random() * lim);
